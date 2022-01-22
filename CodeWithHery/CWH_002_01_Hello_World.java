@@ -4,7 +4,8 @@ public class CWH_002_01_Hello_World {
     	// Entrypoint into the application
         public static void main(String[]args){
             System.out.println("Hello World");
-        }
+        } 
+        
 }
 /*
 Working of the "Hello World" program shown above :
