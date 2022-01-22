@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "MyPractice",
+        "CodeWithHery",
+        "ApnaCollege/MyPackage",
+        "ApnaCollege/Basic",
+        "ApnaCollege/ObjectOrientedProgramingSystem"
+    ]
+}

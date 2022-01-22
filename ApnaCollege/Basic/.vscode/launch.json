@@ -1,0 +1,565 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayAscendingOrder",
+            "request": "launch",
+            "mainClass": "ArrayAscendingOrder",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayAscendingmanage",
+            "request": "launch",
+            "mainClass": "ArrayAscendingmanage",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayFoundNumberXOfIndex",
+            "request": "launch",
+            "mainClass": "ArrayFoundNumberXOfIndex",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayInput",
+            "request": "launch",
+            "mainClass": "ArrayInput",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayInput2",
+            "request": "launch",
+            "mainClass": "ArrayInput2",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayMinToMaxNumber",
+            "request": "launch",
+            "mainClass": "ArrayMinToMaxNumber",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayNameList",
+            "request": "launch",
+            "mainClass": "ArrayNameList",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Average",
+            "request": "launch",
+            "mainClass": "Average",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSorting",
+            "request": "launch",
+            "mainClass": "BubbleSorting",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ButterflyLoop",
+            "request": "launch",
+            "mainClass": "ButterflyLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClearBitManipulation",
+            "request": "launch",
+            "mainClass": "ClearBitManipulation",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComulativeLangth",
+            "request": "launch",
+            "mainClass": "ComulativeLangth",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch CondiTions",
+            "request": "launch",
+            "mainClass": "CondiTions",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiamondLoop",
+            "request": "launch",
+            "mainClass": "DiamondLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoWhileLoop",
+            "request": "launch",
+            "mainClass": "DoWhileLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch EmailToUsername",
+            "request": "launch",
+            "mainClass": "EmailToUsername",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries",
+            "request": "launch",
+            "mainClass": "FibonacciSeries",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries2",
+            "request": "launch",
+            "mainClass": "FibonacciSeries2",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPower2OrNot",
+            "request": "launch",
+            "mainClass": "FindPower2OrNot",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstClass",
+            "request": "launch",
+            "mainClass": "FirstClass",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloydsTriangle",
+            "request": "launch",
+            "mainClass": "FloydsTriangle",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoops",
+            "request": "launch",
+            "mainClass": "ForLoops",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Function",
+            "request": "launch",
+            "mainClass": "Function",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Function2",
+            "request": "launch",
+            "mainClass": "Function2",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FunctionPrimeOrNot",
+            "request": "launch",
+            "mainClass": "FunctionPrimeOrNot",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch FunctionsTable",
+            "request": "launch",
+            "mainClass": "FunctionsTable",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetBitManipulation",
+            "request": "launch",
+            "mainClass": "GetBitManipulation",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreaterNumber",
+            "request": "launch",
+            "mainClass": "GreaterNumber",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreatestCommonDivisor",
+            "request": "launch",
+            "mainClass": "GreatestCommonDivisor",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramid",
+            "request": "launch",
+            "mainClass": "HalfPyramid",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramidWithNumber",
+            "request": "launch",
+            "mainClass": "HalfPyramidWithNumber",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRectangle",
+            "request": "launch",
+            "mainClass": "HollowRectangle",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeProblem",
+            "request": "launch",
+            "mainClass": "HomeProblem",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWork18UpVote",
+            "request": "launch",
+            "mainClass": "HomeWork18UpVote",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch HomeWorkRadius",
+            "request": "launch",
+            "mainClass": "HomeWorkRadius",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InfinityDoWhileLoop",
+            "request": "launch",
+            "mainClass": "InfinityDoWhileLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Input",
+            "request": "launch",
+            "mainClass": "Input",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramid",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramid2",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramid2",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramidWithNumbers",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramidWithNumbers",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NWhithForLoop",
+            "request": "launch",
+            "mainClass": "NWhithForLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberPyramid",
+            "request": "launch",
+            "mainClass": "NumberPyramid",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddNumberPrint",
+            "request": "launch",
+            "mainClass": "OddNumberPrint",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromicLoop",
+            "request": "launch",
+            "mainClass": "PalindromicLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParseIntMethod",
+            "request": "launch",
+            "mainClass": "ParseIntMethod",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PositiveNegetiveZero",
+            "request": "launch",
+            "mainClass": "PositiveNegetiveZero",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PowerOfOneNumberByAnotherNumber",
+            "request": "launch",
+            "mainClass": "PowerOfOneNumberByAnotherNumber",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreNPostIncrement",
+            "request": "launch",
+            "mainClass": "PreNPostIncrement",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Radius",
+            "request": "launch",
+            "mainClass": "Radius",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceTheLetter",
+            "request": "launch",
+            "mainClass": "ReplaceTheLetter",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseAString",
+            "request": "launch",
+            "mainClass": "ReverseAString",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSorting",
+            "request": "launch",
+            "mainClass": "SelectionSorting",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetBitManipulation",
+            "request": "launch",
+            "mainClass": "SetBitManipulation",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidHollowRhombus",
+            "request": "launch",
+            "mainClass": "SolidHollowRhombus",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidRectangleLoop",
+            "request": "launch",
+            "mainClass": "SolidRectangleLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidRombus",
+            "request": "launch",
+            "mainClass": "SolidRombus",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsBuilder",
+            "request": "launch",
+            "mainClass": "StringsBuilder",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsCompare",
+            "request": "launch",
+            "mainClass": "StringsCompare",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubString",
+            "request": "launch",
+            "mainClass": "SubString",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOdd",
+            "request": "launch",
+            "mainClass": "SumOdd",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchBreak",
+            "request": "launch",
+            "mainClass": "SwitchBreak",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestBubble",
+            "request": "launch",
+            "mainClass": "TestBubble",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestInsertion",
+            "request": "launch",
+            "mainClass": "TestInsertion",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestSelection",
+            "request": "launch",
+            "mainClass": "TestSelection",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch ToStringMerthod",
+            "request": "launch",
+            "mainClass": "ToStringMerthod",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Triangle01",
+            "request": "launch",
+            "mainClass": "Triangle01",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoDArray",
+            "request": "launch",
+            "mainClass": "TwoDArray",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch UpdateBitManipulation",
+            "request": "launch",
+            "mainClass": "UpdateBitManipulation",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variable",
+            "request": "launch",
+            "mainClass": "Variable",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileLoop",
+            "request": "launch",
+            "mainClass": "WhileLoop",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch XFoundInArray",
+            "request": "launch",
+            "mainClass": "XFoundInArray",
+            "projectName": "1part_f80043cd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hardik",
+            "request": "launch",
+            "mainClass": "Hardik"
+        }
+    ]
+}
